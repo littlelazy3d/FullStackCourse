@@ -1,0 +1,109 @@
+.hero{
+    background-color: #F5F5F7;
+}
+.img1{
+    width:900px;
+}
+h1 {
+    font-size: 50px;
+}
+.card1,
+.card2,
+.card3,
+.card4 {
+    position:relative;
+    text-align: center;
+    overflow: hidden;
+
+}
+.card1 img,
+.card2 img,
+.card3 img,
+.card4 img {
+    width: 100%;
+    display: block;
+}
+.card-content {
+    position: absolute;
+    top: 30px;
+    left:0;
+    width:100%;
+    z-index:2;
+}
+
+.scroll {
+    background-color: #f5f5f7;
+    padding: 50px 0;
+}
+
+.scroll h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.carousel-img {
+    width: 100%;
+    height: 500px;
+    
+    display: block;
+}
+
+
+.carousel-img {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+}
+
+
+
+
+.apple-footer {
+    font-size: 13px;
+    padding: 40px 0 20px;
+}
+
+.apple-footer h6 {
+
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+.apple-footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 30px;
+}
+
+.apple-footer li {
+    margin-bottom: 10px;
+}
+
+.apple-footer a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.apple-footer a:hover {
+    text-decoration: underline;
+}
+
+.more-shopping {
+    border-bottom: 1px solid #d2d2d7;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.more-shopping a {
+    color: rgb(255, 149, 78);
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 12px;
+}
