@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<!--FONTS-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<!--CDN FOR ICONS-->
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <title>Gromit's Portfolio</title>
+</head>
+<body>
+<nav>
+    <div class="left">
+        <a href="/"> Gromit </a>
+    </div>
+    <div class="right">
+        <a href="http://github.com" target="_blank" rel="noopener
+         noreferrer"> 
+            <i class="fa-brands fa-github"></i>
+            <span>Github</span>
+        </a>
+
+         <a href="http://linkedin.com" target="_blank" rel="noopener
+         noreferrer"> 
+            <i class="fa-brands fa-linkedin"></i>
+            <span>Linkedin</span>
+        </a>
+          <a href="mailto:Gromit@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Email</span>
+        </a>
+
+    </div>
+</nav>
+<main>
+    <!--BIO-->
+    <section class="bio">
+        <div class="text">
+            <h2> Hi, I'm Gromit! </h2>
+            <p class="brief">
+                I live with my best freind, Wallace!
+                My hobbies include gardening, reading, knitting, playing chess,
+                photography, and enjoying a peaceful cup of tea. I believe preparation,
+                patience, and common sense can solve almost anything.
+            </p>
+            <div class="links">
+                <a href="#skills">
+                    <i class="fa-solid fa-code"></i>
+                    <span> Skills </span>
+                </a>
+
+                <a href="#testimony">
+                    <i class="fa-solid fa-pen"></i>
+                    <span> Testimonials </span>
+                </a>
+
+                <a href="#contact">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span> Contact </span>
+                </a>
+
+            </div>
+        </div>
+        <div class="profile">
+            <img src="pictures/2.jpg">
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <h2>skills</h2>
+        <div class="text">
+            From repairing unpredictable inventions to solving mysteries
+            and saving the day, I've picked up a wide range of
+            practical skills along the way. Here are a few of my specialties.
+        </div>
+
+        <div class="cells">
+            <div class="cell">
+                <img src="skills/cook2.jpg">
+                <span> Cooking </span>
+            </div>
+
+            <div class="cell">
+                <img src="skills/knit.jpg">
+                <span> Knitting </span>
+            </div>
+
+            <div class="cell">
+                <img src="skills/write.jpg">
+                <span> Reading </span>
+            </div>
+
+            <div class="cell">
+                <img src="skills/drink.jpg">
+                <span> Drinking Tea</span>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="testimony" class="testimony-section">
+        <h2> Testimonials</h2>
+
+        <div class="group">
+            <div class="carousel"> 
+                <img class="card" src="Testimonials/2.png">
+                <p class="name"> Wallace </p>
+            </div>
+
+            <div class="opinion">
+            "Gromit's absolutely brilliant! I come up with the ideas, 
+            and he somehow makes sure we survive them. Couldn't ask 
+            for a better friend."
+            
+            <img class="rate" src="ratings/stars.png">
+            </div>
+
+             <div class="carousel"> 
+                <img class="card" src="Testimonials/1.jpg">
+                <p class="name"> Lady Campanula </p>
+            </div>
+
+            <div class="opinion">
+            "A true gentleman. Brave, thoughtful, and wonderfully 
+            well-mannered. Quite honestly, he's the most dependable 
+            soul I've ever met."
+            <img class="rate" src="ratings/stars.png">
+            </div>
+
+             <div class="carousel"> 
+                <img class="card" src="Testimonials/4.png">
+                <p class="name"> Victor Quartermaine </p>
+            </div>
+
+            <div class="opinion">
+           "That blasted dog! Always sniffing around, sticking his nose 
+           into my affairs, and ruining my perfectly good plans!"
+           <img class="rate" src="ratings/star.png">
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Let's Get in Touch!</h2>
+        
+        <div class="group">
+            <div class="text">
+                Have a project in mind? Feel free to reach out. 
+                I'll get back to you as soon as I've finished 
+                repairing Wallace's latest invention.
+            
+            <img src="pictures/con.jpg" class="contact-image">
+            </div>
+
+            <form>
+                <div class="row">
+
+                <label for="name"> Name </label>
+                <input type="text" id="name">
+
+                <label for="email"> Email </label>
+                <input type="text" id="email">
+
+                <label for="message"> Send a Message! </label>
+                <textarea id="message" cols="30" rows="10"> </textarea>
+
+                </div>
+
+
+                <button> Submit </button>
+
+
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</main>
+</html>
