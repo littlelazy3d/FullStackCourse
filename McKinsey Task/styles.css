@@ -1,0 +1,180 @@
+.custom-bg{
+    background:#051C2C;
+    min-height:90px;
+    padding-left: 100px;
+}
+
+.nav-link{
+    color:white;
+}
+
+.nav-link:hover{
+    color: rgb(69, 152, 254);
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 15px;
+}
+
+
+.bg1 {
+    background-color: #051C2C;
+    height:1300px;
+}
+
+.header1 {
+    font-size: 70px;
+    line-height: 1; 
+    font-family: "Cormorant Garamond", serif;
+}
+
+.text1 {
+    margin-left: 160px;
+}
+
+.navbar-brand {
+    height:50px;
+    width:auto;
+}
+.logo{
+    height: 45px;
+    filter: brightness(0) invert(1);
+}
+
+.p1{
+    padding-left:50px;
+
+}
+.icon1{
+    font-size: 70px;
+    padding-left: 100px;
+}
+
+.card{
+    border: none;
+    border-radius: 0;
+    overflow: hidden;
+}
+
+.small-card{
+    height: 360px;
+}
+
+.big-card{
+    height: 730px;
+}
+
+.subscribe-card{
+    height: 250px;
+}
+.card img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.news-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+.card-img-top{
+    width: 100%;
+    height: 300px;     
+    object-fit: cover;
+}
+
+.img1{
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: #051C2C;
+}
+
+.bg2 {
+    background: linear-gradient(to right, #151c4c, #2868f3);
+    height:1200px;
+}
+
+.btn-listen {
+    padding:10px 40px;
+    margin-left:150px;
+}
+.mckin{
+    font-size:70px;
+}
+
+.icons1{
+    display: flex;
+    gap: 15px;   
+}
+
+.icons1 .btn:hover{
+    background-color: #0d6efd;
+    transform: scale(1.1);     
+    outline:none;
+}
+.fixed-card{
+    height: 450px;
+}
+
+.c1{
+    height: 600px;
+    
+}
+
+.card-link{
+    transition: color 0.3s ease;
+}
+
+.card-link:hover{
+    color: #0d6efd !important;
+}
+
+.hero2 {
+    background-color: #051C2C;
+}
+
+.cards2 .col-md-4 {
+    transition: 0.3s ease;
+}
+
+.cards2 .col-md-4:hover {
+    background-color: white;
+    color:black;
+}
+
+.hero3 {
+    background-color: #0d6efd;
+}
+footer{
+    background:#fff;
+}
+
+.footer-link{
+    color:#000;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.footer-link:hover{
+    color:#0d6efd;
+}
+
+.social{
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    background:#000;
+    color:#fff;
+    margin-right:10px;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.social:hover{
+    background:#0d6efd;
+    transform:translateY(-3px);
+    color:#fff;
+}
