@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Platform</title>
+
+    <!--FONT AWESOME AND BOOTSTRAP -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!--LOGIN PART-->
+
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        <div class="register-card">
+            <div class="p-5">
+                <h1 class="fw-bold mb-2"> Please Sign in</h1>
+                <p class="text-muted mb-4"> 
+                    Fill in the information below to create your account.
+                </p>
+
+                <form id="form">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <input id="fname" type="text" class="form-control" placeholder="First Name" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <input id="lname" type="text" class="form-control" placeholder="Last Name" required>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <input id="email" type="email" class="form-control" placeholder="Email" required>
+                    </div>
+                    <div class="mb-3">
+                        <input id="password" type="password" class="form-control" placeholder="Password" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <input id="confirmPass" type="password" class="form-control" placeholder="Confirm Password" required>
+                    </div>
+
+                    <div>
+
+                    </div>
+                    <div>
+                        <input type="checkbox" class="form-check-input" id="terms" required>
+                        <label class="ms-2">I agree to the terms and conditions </label>
+                    </div>
+                    <button type="submit" class=" login-btn text-center btn btn-primary w-100 py-2 mt-3"> Sign in </button>
+
+                    <div class="text-center py-3">
+                        Dont have an account? <a href="#"> Register </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--QUIZ PAGE-->
+
+    <div class="app" style="display:none;">
+        <div id="start-screen" class="text-center">
+            <button id="start-btn" class="btn btn-primary rounded-pill px-4 ">Start Quiz</button>
+            <p>You have <strong>10 minutes</strong> to answer all the questions.</p>
+        </div>
+        <div id="quiz-screen" style="display:none;">
+            <div class="header d-flex align-items-center justify-content-between">
+
+            <h1> English Quiz</h1>
+            <div class="timer d-flex align-items-center gap-2">
+                <i class="fa-solid fa-stopwatch"></i>
+                <span id="timer" class="mb-0"> 10:00 </span>
+            </div>
+            </div>
+            
+            
+            <div class="quiz">
+                <h2 id="question"> Choose the correct answer </h2>
+                <div id="answer-buttons">
+                    <button class='btn'>Answer 1</button>
+                    <button class='btn'>Answer 2</button>
+                    <button class='btn'>Answer 3</button>
+                    <button class='btn'>Answer 4</button>
+                </div>
+            <div class="btns">
+                <button id="prev-btn">Previous</button>
+                <button id="next-btn">Next</button>
+            </div>
+        </div>
+            <p id="progress" class="text-center fw-semibold"></p>
+    </div>
+
+
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
